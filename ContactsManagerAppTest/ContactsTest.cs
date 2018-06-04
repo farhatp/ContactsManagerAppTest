@@ -31,8 +31,8 @@ namespace ContactsManagerAppTest
             {
                 FirstName = "Farhat",
                 LastName = "Peerzada",
-                Email = "farhatp@mkcl.org",
-                PhoneNumber = "9922727676",
+                Email = "abc@xyz.org",
+                PhoneNumber = "9988776655",
                 Status = (int)ContactStatus.Active
             };
             //contactsList.Add(contact);
@@ -69,8 +69,8 @@ namespace ContactsManagerAppTest
             contact.ContactID = 1;
             contact.FirstName = "Farhat";
             contact.LastName = "Pirzada";
-            contact.Email = "farhat_ap@yahoo.com";
-            contact.PhoneNumber = "9922727676";
+            contact.Email = "fiji@lizi.com";
+            contact.PhoneNumber = "112-233-4455";
             contact.Status = (int)ContactStatus.InActive;
             var result = (RedirectToRouteResult)controller.Edit(contact);
             Assert.AreEqual("Index", result.RouteValues["action"]);
